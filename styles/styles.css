@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(30deg, 38%, 92%);
+}
+body .container {
+  width: 580px;
+  height: 440px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+}
+body .container .picture {
+  background-image: url(../images/image-product-desktop.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+body .container .information {
+  width: 50%;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .container .information .per {
+  line-height: 2rem;
+  font-weight: 400;
+  color: hsl(228deg, 12%, 48%);
+}
+body .container .information h1 {
+  font-family: "Fraunces", serif;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .container .information .dis {
+  line-height: 1.5rem;
+  color: hsl(228deg, 12%, 48%);
+}
+body .container .information .cost {
+  display: flex;
+  align-items: center;
+}
+body .container .information .cost h1 {
+  color: hsl(158deg, 36%, 37%);
+  margin-right: 20px;
+}
+body .container .information .cost .delete {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228deg, 12%, 48%);
+  font-size: 0.75rem;
+}
+body .container .information button {
+  width: 220px;
+  height: 45px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: hsl(158deg, 36%, 37%);
+  cursor: pointer;
+}
+body .container .information button:hover {
+  background-color: hsl(212deg, 21%, 14%);
+}/*# sourceMappingURL=styles.css.map */
