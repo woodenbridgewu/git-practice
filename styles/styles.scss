@@ -92,3 +92,19 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 351px) {
+  .container {
+    flex-wrap: wrap;
+    // min-width: 350px;
+
+    .picture {
+      min-width: 350px;
+      // height: 30vh;
+    }
+
+    .information {
+      min-width: 350px;
+    }
+  }
+}

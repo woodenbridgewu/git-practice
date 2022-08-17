@@ -79,4 +79,16 @@ body .container .information button {
 }
 body .container .information button:hover {
   background-color: hsl(212deg, 21%, 14%);
+}
+
+@media screen and (max-width: 351px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container .picture {
+    min-width: 350px;
+  }
+  .container .information {
+    min-width: 350px;
+  }
 }/*# sourceMappingURL=styles.css.map */
